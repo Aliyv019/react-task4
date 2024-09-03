@@ -1,0 +1,36 @@
+.homebtn{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+.header{
+    padding: 5px;
+}
+.input_country{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px+10%;
+}
+.input_country input{
+    padding: 25px+300px+19px+30px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 8px;
+}
+.input_country button{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+.input_country form{
+    position: relative;
+}
+.input_country h2{
+    color: white;
+    font-size: 45px;
+}
